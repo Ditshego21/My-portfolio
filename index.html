@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ditshego Kgwadi - Digital Associate Portfolio</title>
+    <!-- Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+ <body class="text-white antialiased" style="background-image: url('images/backgroundportfolio.jpg'); background-size: cover; background-attachment: fixed; background-position: center;">
+
+    <!-- Navigation Bar -->
+    <nav
+      class="fixed top-0 left-0 right-0 z-50 bg-gray-900 bg-opacity-90 backdrop-blur-sm shadow-lg"
+    >
+      <div
+        class="container mx-auto px-4 py-3 flex justify-between items-center"
+      >
+        <div class="text-white text-2xl font-bold font-inter">
+          Ditshego Kgwadi
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a
+            href="#home"
+            class="nav-item text-gray-300 hover:text-white hover:bg-gray-700 transition-all duration-300 px-3 py-2 rounded-lg flex items-center space-x-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-5 h-5"
+            >
+              <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+            <span>Home</span>
+          </a>
+          <a
+            href="#about"
+            class="nav-item text-gray-300 hover:text-white hover:bg-gray-700 transition-all duration-300 px-3 py-2 rounded-lg flex items-center space-x-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-5 h-5"
+            >
+              <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg>
+            <span>About</span>
+          </a>
+          <a
+            href="#skills"
+            class="nav-item text-gray-300 hover:text-white hover:bg-gray-700 transition-all duration-300 px-3 py-2 rounded-lg flex items-center space-x-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-5 h-5"
+            >
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+            <span>Skills</span>
+          </a>
+          <a
+          href="#certifications"
+                    class="nav-item text-gray-300 hover:text-white hover:bg-gray-700 transition-all duration-300 px-3 py-2 rounded-lg flex items-center space-x-2"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="w-5 h-5"
+                    >
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                        <polyline points="14 2 14 8 20 8" />
+                        <line x1="16" y1="13" x2="8" y2="13" />
+                        <line x1="16" y1="17" x2="8" y2="17" />
+                        <line x1="10" y1="9" x2="10" y2="9" />
+                    </svg>
+                    <span>Certifications</span>
+                </a>
+                <!-- END NEW CERTIFICATIONS NAV LINK -->
+                <a
+
+            href="#projects"
+            class="nav-item text-gray-300 hover:text-white hover:bg-gray-700 transition-all duration-300 px-3 py-2 rounded-lg flex items-center space-x-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-5 h-5"
+            >
+              <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+            </svg>
+            <span>Projects</span>
+          </a>
+          <a
+            href="#resume"
+            class="nav-item text-gray-300 hover:text-white hover:bg-gray-700 transition-all duration-300 px-3 py-2 rounded-lg flex items-center space-x-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-5 h-5"
+            >
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            <span>Resume</span>
+          </a>
+          <a
+            href="#contact"
+            class="nav-item text-gray-300 hover:text-white hover:bg-gray-700 transition-all duration-300 px-3 py-2 rounded-lg flex items-center space-x-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-5 h-5"
+            >
+              <rect width="20" height="16" x="2" y="4" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            <span>Contact</span>
+          </a>
+        </div>
+        <!-- Mobile menu button (can be expanded with JS for dropdown) -->
+        <div class="md:hidden">
+          <button class="text-white focus:outline-none">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main class="pt-16">
+      <!-- Home Section -->
+      <section
+        id="home"
+        class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-black p-4 pt-20"
+      >
+        <div
+          class="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between max-w-6xl animate-fadeInSlideUp"
+          style="animation-delay: 0.2s"
+        >
+          <!-- Image on the left -->
+          <div class="flex-shrink-0 mb-8 md:mb-0 md:mr-12">
+            <img
+              src="images/IMG_2433.jpeg"
+              alt="Ditshego Kgwadi Profile"
+              class="rounded-xl w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-purple-500 shadow-xl"
+            />
+          </div>
+          <!-- Text content on the right -->
+          <div class="text-center md:text-left max-w-2xl">
+            <h1
+              class="text-5xl md:text-6xl font-extrabold mb-4 leading-tight font-playfair-display"
+            >
+              Hi, I'm <span class="text-purple-400">Ditshego Kgwadi</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 font-light text-gray-300">
+              A dedicated
+              <span class="font-semibold text-purple-300"
+                >Digital Associate</span
+              >
+              passionate about
+              <span class="font-semibold text-purple-300">Cybersecurity and Data Analytics</span>.
+            </p>
+            <p class="text-lg mb-10 text-gray-400">
+              "Leveraging digital expertise and a strong foundation in
+              cybersecurity principles to protect systems and data."
+            </p>
+            <div
+              class="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-6"
+            >
+              <a
+                href="#projects"
+                class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+              >
+                View Projects
+              </a>
+              <a
+                href="#contact"
+                class="border border-purple-600 text-purple-300 hover:bg-purple-600 hover:text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+              >
+                Get in Touch
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section
+        id="about"
+        class="min-h-screen flex items-center bg-gray-800 text-white p-8"
+      >
+        <div
+          class="container mx-auto max-w-5xl animate-fadeInSlideUp"
+          style="animation-delay: 0.4s"
+        >
+          <h2
+            class="text-4xl font-bold text-center mb-12 text-purple-400 font-inter"
+          >
+            About Ditshego
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="text-lg leading-relaxed space-y-6">
+              <p>
+                Hey! I’m Ditshego — a Digital Associate currently specialising
+                in the Cybersecurity stream, with a strong curiosity for how
+                data, technology, and people intersect. My journey into
+                cybersecurity began with a deep interest in protecting digital
+                assets and understanding the intricacies of secure systems. Over
+                time, this interest has expanded into a broader passion for data
+                analytics — uncovering insights, patterns, and opportunities
+                hidden within data.
+              </p>
+              <p>
+                I thrive in environments where I can explore, solve problems,
+                and continuously grow. My goal is to join a dynamic,
+                forward-thinking team where I can apply my growing expertise in
+                cybersecurity to help identify and mitigate threats, implement
+                robust security measures, and contribute to a secure digital
+                landscape. I’m especially interested in areas like security
+                operations, threat intelligence, compliance, and how data
+                analysis can support smarter, faster decision-making in these
+                domains.
+              </p>
+              <p>
+                I believe that staying curious and adaptable is key in tech —
+                and I’m excited about the possibilities ahead as I keep
+                learning, building, and contributing to solutions that make a
+                difference.
+              </p>
+            </div>
+            <div class="flex justify-center">
+              <img
+                src="images/IMG_8881.jpeg"
+                alt="About Me"
+                class="rounded-xl shadow-2xl border-4 border-purple-500"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section
+        id="skills"
+        class="min-h-screen flex items-center bg-gray-900 text-white p-8"
+      >
+        <div
+          class="container mx-auto max-w-6xl animate-fadeInSlideUp"
+          style="animation-delay: 0.6s"
+        >
+          <h2
+            class="text-4xl font-bold text-center mb-12 text-purple-400 font-inter"
+          >
+            Technical Skills & Competencies
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Skill Card 1: Cybersecurity Fundamentals -->
+<div
+  class="bg-gray-800/80 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+>
+  <h3 class="text-2xl font-semibold mb-4 text-purple-300 flex items-center">
+    <!-- Shield Icon for Cybersecurity -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="w-6 h-6 mr-2 text-purple-400"
+    >
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+    </svg>
+    Cybersecurity Fundamentals
+  </h3>
+  <ul class="list-disc list-inside space-y-2 text-gray-300">
+    <li><span class="text-purple-400 mr-2">•</span> Network Security</li>
+    <li><span class="text-purple-400 mr-2">•</span> Endpoint Protection</li>
+    <li><span class="text-purple-400 mr-2">•</span> Incident Response</li>
+    <li><span class="text-purple-400 mr-2">•</span> Vulnerability Management</li>
+    <li><span class="text-purple-400 mr-2">•</span> Risk Assessment</li>
+  </ul>
+</div>
+
+            <!-- Skill Card 2 -->
+            <div
+  class="bg-gray-800/80 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+>
+  <h3 class="text-2xl font-semibold mb-4 text-purple-300 flex items-center">
+    <!-- Code Icon for Programming & Scripting -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="w-6 h-6 mr-2 text-purple-400"
+    >
+      <polyline points="16 18 22 12 16 6"></polyline>
+      <polyline points="8 6 2 12 8 18"></polyline>
+    </svg>
+    Programming & Scripting
+  </h3>
+  <ul class="list-disc list-inside space-y-2 text-gray-300">
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Python (basic/learning)
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> JavaScript (confident)
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> SQL (confident)
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> HTML/CSS (confident)
+    </li>
+  </ul>
+</div>
+
+           <!-- Skill Card 3: Operating Systems -->
+<div
+  class="bg-gray-800/80 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+>
+  <h3 class="text-2xl font-semibold mb-4 text-purple-300 flex items-center">
+    <!-- Server/Computer Icon for Operating Systems -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="w-6 h-6 mr-2 text-purple-400"
+    >
+      <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+      <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+      <path d="M6 6h.01"></path>
+      <path d="M6 18h.01"></path>
+    </svg>
+    Operating Systems
+  </h3>
+  <ul class="list-disc list-inside space-y-2 text-gray-300">
+    <li><span class="text-purple-400 mr-2">•</span> Linux</li>
+    <li><span class="text-purple-400 mr-2">•</span> Windows Server</li>
+    <li><span class="text-purple-400 mr-2">•</span> macOS</li>
+  </ul>
+</div>
+
+            <!-- Skill Card 4: Tools & Platforms -->
+<div
+  class="bg-gray-800/80 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+>
+  <h3 class="text-2xl font-semibold mb-4 text-purple-300 flex items-center">
+    <!-- Tools & Platforms Icon (Wrench & Gear) -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="w-6 h-6 mr-2 text-purple-400"
+    >
+      <path
+        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-2.48 2.48a10 10 0 0 1-1.92-5.12 10 10 0 0 1 .45-2.2z"
+      ></path>
+      <path d="M12.5 17.5l-2.5 2.5a2 2 0 0 1-4 0v-2a2 2 0 0 1 0-4h2a2 2 0 0 1 2 0v2z"></path>
+    </svg>
+    Tools & Platforms
+  </h3>
+  <ul class="list-disc list-inside space-y-2 text-gray-300">
+    <li>
+      <span class="text-purple-400 mr-2">•</span> SIEM (Basic)
+    </li>
+    <li><span class="text-purple-400 mr-2">•</span> Firewalls</li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> IDEs: Visual Studio Code,
+      PyCharm, Jupyter Notebooks
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Metasploit (penetration testing)
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Data Analysis & Visualization:
+      Pandas, NumPy, Excel
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Cloud Platforms: Microsoft Azure
+    </li>
+  </ul>
+</div>
+
+            <!-- Skill Card 5: Concepts & Methodologies -->
+<div
+  class="bg-gray-800/80 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+>
+  <h3 class="text-2xl font-semibold mb-4 text-purple-300 flex items-center">
+    <!-- Concepts & Methodologies Icon (Lightbulb) -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="w-6 h-6 mr-2 text-purple-400"
+    >
+      <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 3c0 8 7 17 9 17h.01"></path>
+      <path d="M12 19H8"></path>
+      <path d="M16 19h-4"></path>
+    </svg>
+    Concepts & Methodologies
+  </h3>
+  <ul class="list-disc list-inside space-y-2 text-gray-300">
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Ethical Hacking
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Defensive Security
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Identity & Access Management
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Incident Response
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Cloud Security (Basic)
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Cryptography (basic)
+    </li>
+  </ul>
+</div>
+
+            <!-- Skill Card 6: Digital & IT Skills -->
+<div
+  class="bg-gray-800/80 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+>
+  <h3 class="text-2xl font-semibold mb-4 text-purple-300 flex items-center">
+    <!-- Digital & IT Skills Icon (Monitor) -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="w-6 h-6 mr-2 text-purple-400"
+    >
+      <rect width="20" height="15" x="2" y="3" rx="2"></rect>
+      <path d="M12 18v4"></path>
+      <path d="M7 22h10"></path>
+    </svg>
+    Digital & IT Skills
+  </h3>
+  <ul class="list-disc list-inside space-y-2 text-gray-300">
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Data Analysis
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Troubleshooting
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> Cloud Computing (General Concepts)
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> IT Helpdesk Support
+    </li>
+    <li>
+      <span class="text-purple-400 mr-2">•</span> VPN & Proxy Configuration (interested)
+    </li>
+  </ul>
+</div>
+
+      </section>
+      
+  <section
+            id="certifications"
+            class="min-h-screen flex items-center bg-gray-800 text-white p-8"
+        >
+            <div
+                class="container mx-auto max-w-6xl animate-fadeInSlideUp"
+                style="animation-delay: 0.8s"
+            >
+                <h2
+                    class="text-4xl font-bold text-center mb-12 text-purple-400 font-inter"
+                >
+                    Certifications
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Certification Card 1 -->
+                    <div
+                        class="bg-gray-900 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+                    >
+                        <h3 class="text-2xl font-semibold mb-2 text-purple-300">
+                            Artificial Intelligence on Microsoft Azure
+                        </h3>
+                        <p class="text-gray-400 text-sm mb-3">Microsoft</p>
+                        <p class="text-gray-300 text-base">
+                            Explores AI services and machine learning capabilities
+                            available on the Microsoft Azure platform.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-xs text-gray-500"
+                                >Issued: [May 2025]</span
+                            >
+                            <a
+                                href="https://coursera.org/share/29711a924c0f3b94fa2da67dbeea650b"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-purple-400 hover:text-purple-300 text-sm font-medium flex items-center"
+                            >
+                                View Credential
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="ml-1 w-4 h-4"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certification Card 2 -->
+                    <div
+                        class="bg-gray-900 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+                    >
+                        <h3 class="text-2xl font-semibold mb-2 text-purple-300">
+                            Generative AI with Large Language Models
+                        </h3>
+                        <p class="text-gray-400 text-sm mb-3">Google</p>
+                        <p class="text-gray-300 text-base">
+                            Covers the principles and applications of Generative AI,
+                            focusing on Large Language Models (LLMs).
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-xs text-gray-500"
+                                >Issued: [May 2025]</span
+                            >
+                            <a
+                                href="https://coursera.org/share/e7c9a1318209e062b69551c075b59718"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-purple-400 hover:text-purple-300 text-sm font-medium flex items-center"
+                            >
+                                View Credential
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="ml-1 w-4 h-4"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certification Card 3 -->
+                    <div
+                        class="bg-gray-900 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+                    >
+                        <h3 class="text-2xl font-semibold mb-2 text-purple-300">
+                            Introduction to Responsible AI
+                        </h3>
+                        <p class="text-gray-400 text-sm mb-3">Google</p>
+                        <p class="text-gray-300 text-base">
+                            An overview of ethical considerations and responsible
+                            development practices in Artificial Intelligence.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-xs text-gray-500"
+                                >Issued: [May 2025]</span
+                            >
+                            <a
+                                href="https://coursera.org/share/36d0d4e10e9d99f9ee01db8bb312bc74"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-purple-400 hover:text-purple-300 text-sm font-medium flex items-center"
+                            >
+                                View Credential
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="ml-1 w-4 h-4"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certification Card 4 -->
+                    <div
+                        class="bg-gray-900 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+                    >
+                        <h3 class="text-2xl font-semibold mb-2 text-purple-300">
+                            Generative AI for Everyone
+                        </h3>
+                        <p class="text-gray-400 text-sm mb-3">Google</p>
+                        <p class="text-gray-300 text-base">
+                            Provides a foundational understanding of Generative AI
+                            concepts and its broad applications.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-xs text-gray-500"
+                                 >Issued: [June 2025]</span
+                            >
+                            <a
+                                href="https://coursera.org/share/70d575f82f263de05c6756e0b8eac7d6"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-purple-400 hover:text-purple-300 text-sm font-medium flex items-center"
+                            >
+                                View Credential
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="ml-1 w-4 h-4"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="w-4 h-4 mr-2"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certification Card 5 -->
+                    <div
+                        class="bg-gray-900 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+                    >
+                        <h3 class="text-2xl font-semibold mb-2 text-purple-300">
+                            Introduction to Generative AI
+                        </h3>
+                        <p class="text-gray-400 text-sm mb-3">Google</p>
+                        <p class="text-300 text-base">
+                            Introduces the core concepts and capabilities of
+                            Generative AI.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-xs text-gray-500"
+                                 >Issued: [May 2025]</span
+                            >
+                            <a
+                                href="https://coursera.org/share/4c60648cf0c4645554bbca583fefa321"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-purple-400 hover:text-purple-300 text-sm font-medium flex items-center"
+                            >
+                                View Credential
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="ml-1 w-4 h-4"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certification Card 6 -->
+                    <div
+                        class="bg-gray-900 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+                    >
+                        <h3 class="text-2xl font-semibold mb-2 text-purple-300">
+                            AI for Everyone
+                        </h3>
+                        <p class="text-gray-400 text-sm mb-3">Google</p>
+                        <p class="text-gray-300 text-base">
+                            A non-technical course on understanding the basics of
+                            AI and its impact on society and business.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-xs text-gray-500"
+                                 >Issued: [May 2025]</span
+                            >
+                            <a
+                                href="https://coursera.org/share/38ecfce2654a66e58f931f0f51373307"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-purple-400 hover:text-purple-300 text-sm font-medium flex items-center"
+                            >
+                                View Credential
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="ml-1 w-4 h-4"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certification Card 7 -->
+      <div
+        class="bg-gray-900/50 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+      >
+        <h3 class="text-2xl font-semibold mb-2 text-purple-300">
+          AI Essentials
+        </h3>
+        <p class="text-gray-400 text-sm mb-3">Google</p>
+        <p class="text-gray-300 text-base">
+          Fundamental concepts of Artificial Intelligence, its
+          applications, and ethical considerations.
+        </p>
+        <div class="mt-4 flex justify-between items-center">
+          <span class="text-xs text-gray-500"
+            >Issued: [July 2025]</span
+          >
+          <a
+            href="https://coursera.org/share/07096739611b7123910c26569766282a"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-purple-400 hover:text-purple-300 text-sm font-medium flex items-center"
+          >
+            View Credential
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-1 w-4 h-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!-- Certification Card 8 -->
+      <div
+        class="bg-gray-900/50 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+      >
+        <h3 class="text-2xl font-semibold mb-2 text-purple-300">
+          Python for Data Science and AI
+        </h3>
+        <p class="text-gray-400 text-sm mb-3">Coursera</p>
+        <p class="text-gray-300 text-base">
+          A foundational course on using Python for data analysis,
+          including data manipulation, visualization, and building
+          AI models.
+        </p>
+        <div class="mt-4 flex justify-between items-center">
+          <span class="text-xs text-gray-500"
+            >Issued: [July 2025]</span
+          >
+          <a
+            href="https://www.credly.com/badges/5510f1ac-458a-4fc5-8598-ec4f2d63cdb9/public_url"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-purple-400 hover:text-purple-300 text-sm font-medium flex items-center"
+          >
+            View Credential
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-1 w-4 h-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="min-h-screen bg-gray-800 text-white p-8">
+        <div
+          class="container mx-auto max-w-6xl animate-fadeInSlideUp"
+          style="animation-delay: 0.8s"
+        >
+          <h2
+            class="text-4xl font-bold text-center mb-12 text-purple-400 font-inter"
+          >
+            Featured Projects
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <!-- Project Card 1 -->
+            <div
+              class="bg-gray-900 p-6 rounded-xl shadow-lg overflow-hidden border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+            >
+              <img
+                src="images/AI_chatbot.webp"
+                alt="AI Concept Chatbot"
+                class="w-full h-48 object-cover object-center"
+              />
+              <div class="p-6">
+                <h3 class="text-2xl font-semibold mb-3 text-purple-300">
+                  AI Concept Chatbot
+                </h3>
+                <p class="text-gray-300 mb-4 text-sm">
+                  An interactive AI educational chatbot that serves as a
+                  knowledge assistant for AI fundamentals.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >Python</span
+                  >
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >NLTK</span
+                  >
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >TensorFlow</span
+                  >
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >Flask</span
+                  >
+                </div>
+                <div class="flex justify-between items-center mt-4">
+                  <a
+                    href="https://landbot.online/v3/H-2940307-Q0RLV7DAFR1GHYHN/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="bg-purple-600 hover:bg-purple-700 text-white text-sm py-2 px-4 rounded-full flex items-center shadow-md"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="w-4 h-4 mr-2"
+                    >
+                      <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                    </svg>
+                    Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/Ditshego21/My-AI-chatbot.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-gray-300 hover:text-white border border-gray-600 hover:border-purple-500 text-sm py-2 px-4 rounded-full flex items-center shadow-md"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="w-4 h-4 mr-2"
+                    >
+                      <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.25-1-3.5.25-1.5-.2-3-1.25-3.75 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-1.25.75-1.7 2.25-1.25 3.75-.8.25-1.5 1.25-1 3.5 0 3.5 3 5.5 6 5.5-.39.49-.68 1-.85 1.65-.17.65-.22 1.4-.15 2.2l.6 3H22"
+                      />
+                      <path d="M9 18c-2.5 0-3 .5-3 2v1" />
+                    </svg>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Project Card 2 -->
+            <div
+              class="bg-gray-900 p-6 rounded-xl shadow-lg overflow-hidden border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+            >
+              <img
+                src="images/education.jpg"
+                alt="Educational Generator AI Prototype"
+                class="w-full h-48 object-cover object-center"
+              />
+              <div class="p-6">
+                <h3 class="text-2xl font-semibold mb-3 text-purple-300">
+                  Educational Generator AI Prototype
+                </h3>
+                <p class="text-gray-300 mb-4 text-sm">
+                  An AI solution addressing a specific challenge in your
+                  selected sector (e.g., cybersecurity education).
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >Python</span
+                  >
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >AI</span
+                  >
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >Education</span
+                  >
+                </div>
+                <div class="flex justify-between items-center mt-4">
+                  <a
+                    href="https://example.com/edulearn-demo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="bg-purple-600 hover:bg-purple-700 text-white text-sm py-2 px-4 rounded-full flex items-center shadow-md"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="w-4 h-4 mr-2"
+                    >
+                      <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                    </svg>
+                    Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/Ditshego21/Educational-Generator-EduLearn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-gray-300 hover:text-white border border-gray-600 hover:border-purple-500 text-sm py-2 px-4 rounded-full flex items-center shadow-md"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="w-4 h-4 mr-2"
+                    >
+                      <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.25-1-3.5.25-1.5-.2-3-1.25-3.75 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-1.25.75-1.7 2.25-1.25 3.75-.8.25-1.5 1.25-1 3.5 0 3.5 3 5.5 6 5.5-.39.49-.68 1-.85 1.65-.17.65-.22 1.4-.15 2.2l.6 3H22"
+                      />
+                      <path d="M9 18c-2.5 0-3 .5-3 2v1" />
+                    </svg>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Project Card 3 -->
+            <div
+              class="bg-gray-900 p-6 rounded-xl shadow-lg overflow-hidden border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+            >
+              <img
+                src="images/resume.jpg"
+                alt="AI Resume Builder"
+                class="w-full h-48 object-cover object-center"
+              />
+              <div class="p-6">
+                <h3 class="text-2xl font-semibold mb-3 text-purple-300">
+                  AI Resume Builder
+                </h3>
+                <p class="text-gray-300 mb-4 text-sm">
+                  An intelligent resume generation system that creates
+                  customized, ATS-friendly resumes based on user inputs.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >Python</span
+                  >
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >NLP</span
+                  >
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >Streamlit</span
+                  >
+                </div>
+                <div class="flex justify-between items-center mt-4">
+                  <a
+                    href="https://mudauri.github.io/AI-Resume-Generator/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="bg-purple-600 hover:bg-purple-700 text-white text-sm py-2 px-4 rounded-full flex items-center shadow-md"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="w-4 h-4 mr-2"
+                    >
+                      <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                    </svg>
+                    Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/Ditshego21/AI-Resume-Builder"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-gray-300 hover:text-white border border-gray-600 hover:border-purple-500 text-sm py-2 px-4 rounded-full flex items-center shadow-md"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="w-4 h-4 mr-2"
+                    >
+                      <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.25-1-3.5.25-1.5-.2-3-1.25-3.75 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-1.25.75-1.7 2.25-1.25 3.75-.8.25-1.5 1.25-1 3.5 0 3.5 3 5.5 6 5.5-.39.49-.68 1-.85 1.65-.17.65-.22 1.4-.15 2.2l.6 3H22"
+                      />
+                      <path d="M9 18c-2.5 0-3 .5-3 2v1" />
+                    </svg>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Project Card 4 -->
+            <div
+              class="bg-gray-900 p-6 rounded-xl shadow-lg overflow-hidden border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+            >
+              <img
+                src="images/Sentimentanalysis.png"
+                alt="Sentiment Analyzer"
+                class="w-full h-48 object-cover object-center"
+              />
+              <div class="p-6">
+                <h3 class="text-2xl font-semibold mb-3 text-purple-300">
+                  Sentiment Analyzer
+                </h3>
+                <p class="text-gray-300 mb-4 text-sm">
+                  An interactive dashboard that analyzes sentiment in text data,
+                  enabling users to understand emotional tone in customer
+                  reviews, social media posts, or other text content.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >Python</span
+                  >
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >NLTK</span
+                  >
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >Pandas</span
+                  >
+                  <span
+                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                    >Dash/Plotly</span
+                  >
+                </div>
+                <div class="flex justify-between items-center mt-4">
+                  <a
+                    href="https://huggingface.co/spaces/ThaboMarvin/Sentiment-Analyzer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="bg-purple-600 hover:bg-purple-700 text-white text-sm py-2 px-4 rounded-full flex items-center shadow-md"
+                  >
+                    <svg
+                      xmlns="http://www.w3.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="w-4 h-4 mr-2"
+                    >
+                      <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                    </svg>
+                    Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/Ditshego21/Sentiment-Analyzer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-gray-300 hover:text-white border border-gray-600 hover:border-purple-500 text-sm py-2 px-4 rounded-full flex items-center shadow-md"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="w-4 h-4 mr-2"
+                    >
+                      <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.25-1-3.5.25-1.5-.2-3-1.25-3.75 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-1.25.75-1.7 2.25-1.25 3.75-.8.25-1.5 1.25-1 3.5 0 3.5 3 5.5 6 5.5-.39.49-.68 1-.85 1.65-.17.65-.22 1.4-.15 2.2l.6 3H22"
+                      />
+                      <path d="M9 18c-2.5 0-3 .5-3 2v1" />
+                    </svg>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+           
+                  
+             <!-- START NEW PROJECT CARD: AI Prototype - Agriculture -->
+                    <div
+                        class="bg-gray-900 p-6 rounded-xl shadow-lg overflow-hidden border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+                    >
+                        <img
+                            src="images/Agriculture.jpg"
+                            alt="AI Prototype - Agriculture"
+                            class="w-full h-48 object-cover object-center"
+                        />
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-3 text-purple-300">
+                                AI Prototype - Agriculture
+                            </h3>
+                            <p class="text-gray-300 mb-4 text-sm">
+                                An AI application that shows how AI can revolutionize
+                                sorting in food manufacturing by improving quality
+                                control and reducing waste.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                                    >AI</span
+                                >
+                                <span
+                                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                                    >Machine Learning</span
+                                >
+                                <span
+                                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                                    >Computer Vision</span
+                                >
+                            </div>
+                            <div class="flex justify-between items-center mt-4">
+                                <a
+                                    href="https://capeitinitiative-my.sharepoint.com/:v:/g/personal/rebafenyi_mudau_capaciti_org_za/ERbiArGFgbRFqyJCiT5L-PoBhLSwd4_dnRNBA58u3c8cgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q3z4PI"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="bg-purple-600 hover:bg-purple-700 text-white text-sm py-2 px-4 rounded-full flex items-center shadow-md"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="w-4 h-4 mr-2"
+                                    >
+                                        <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                                    </svg>
+                                    Live Demo
+                                </a>
+                                <a
+                                    href="YOUR_AGRICULTURE_AI_GITHUB_LINK"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="text-gray-300 hover:text-white border border-gray-600 hover:border-purple-500 text-sm py-2 px-4 rounded-full flex items-center shadow-md"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="w-4 h-4 mr-2"
+                                    >
+                                        <path
+                                            d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.25-1-3.5.25-1.5-.2-3-1.25-3.75 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-1.25.75-1.7 2.25-1.25 3.75-.8.25-1.5 1.25-1 3.5 0 3.5 3 5.5 6 5.5-.39.49-.68 1-.85 1.65-.17.65-.22 1.4-.15 2.2l.6 3H22"
+                                        />
+                                        <path d="M9 18c-2.5 0-3 .5-3 2v1" />
+                                    </svg>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                     <div
+                        class="bg-gray-900 p-6 rounded-xl shadow-lg overflow-hidden border border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105"
+                    >
+                        <img
+                            src="images/Biasreport.jpg"
+                            alt="Bias Audit Report"
+                            class="w-full h-48 object-cover object-center"
+                        />
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold mb-3 text-purple-300">
+                                Bias Audit Report
+                            </h3>
+                            <p class="text-gray-300 mb-4 text-sm">
+                                Conducted a thorough analysis of bias in a machine
+                                learning dataset or model, identifying ethical
+                                concerns and proposing concrete mitigation
+                                strategies.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span
+                                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                                    >Responsible AI</span
+                                >
+                                <span
+                                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                                    >Data Ethics</span
+                                >
+                                <span
+                                    class="bg-purple-700 text-purple-100 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                                    >Machine Learning</span
+                                >
+                            </div>
+                            <div class="flex justify-between items-center mt-4">
+                                <a
+                                    href="YOUR_BIAS_AUDIT_DEMO_LINK"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="bg-purple-600 hover:bg-purple-700 text-white text-sm py-2 px-4 rounded-full flex items-center shadow-md"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="w-4 h-4 mr-2"
+                                    >
+                                        <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                                    </svg>
+                                    Live Demo
+                                </a>
+                                <a
+                                    href="https://github.com/Ditshego21/Mitigating-Bias-Audit"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="text-gray-300 hover:text-white border border-gray-600 hover:border-purple-500 text-sm py-2 px-4 rounded-full flex items-center shadow-md"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="w-4 h-4 mr-2"
+                                    >
+                                        <path
+                                            d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.25-1-3.5.25-1.5-.2-3-1.25-3.75 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-1.25.75-1.7 2.25-1.25 3.75-.8.25-1.5 1.25-1 3.5 0 3.5 3 5.5 6 5.5-.39.49-.68 1-.85 1.65-.17.65-.22 1.4-.15 2.2l.6 3H22"
+                                        />
+                                        <path d="M9 18c-2.5 0-3 .5-3 2v1" />
+                                    </svg>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END NEW PROJECT CARD: Bias Audit Report -->
+                </div>
+            </div>
+        </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resume Section -->
+      <section
+        id="resume"
+        class="min-h-screen flex items-center bg-gray-900 text-white p-8"
+      >
+        <div
+          class="container mx-auto max-w-4xl text-center animate-fadeInSlideUp"
+          style="animation-delay: 1s"
+        >
+          <h2 class="text-4xl font-bold mb-12 text-purple-400 font-inter">
+            My Resume
+          </h2>
+          <p class="text-lg mb-8 text-gray-300">
+            You can view a preview of my resume below or download the full PDF
+            version.
+          </p>
+          <div
+            class="bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-700 mb-8"
+          >
+            <!-- Placeholder for Resume Preview Image -->
+            <img
+              src="images/resume preview.png"
+              alt="Resume Preview"
+              class="w-full h-auto rounded-lg shadow-md mb-6 mx-auto max-w-md"
+            />
+            <a
+              href="Ditshego-resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out flex items-center justify-center mx-auto max-w-xs"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="w-5 h-5 mr-3"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download Resume (PDF)
+            </a>
+          </div>
+          <p class="text-sm text-gray-400"></p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section
+        id="contact"
+        class="min-h-screen flex items-center bg-gray-900 text-white p-8"
+      >
+        <div
+          class="container mx-auto max-w-4xl text-center animate-fadeInSlideUp"
+          style="animation-delay: 1.2s"
+        >
+          <h2 class="text-4xl font-bold mb-12 text-purple-400 font-inter">
+            Get in Touch
+            </h2>
+            <p class="text-lg text-center text-gray-300 mb-8">
+              Have a question, a project idea, or just want to connect? I'd love to hear from you!
+            </p>
+            <form action="https://api.web3forms.com/submit" method="POST" class="bg-gray-900/50 p-8 rounded-xl shadow-lg border border-gray-700 max-w-lg mx-auto space-y-6">
+  <!-- IMPORTANT: Place your Web3Forms access key here. -->
+  <!-- Replace "6e9dbd91-0d8f-4498-a8fd-351a4ee4e4b8" with your actual key from Web3Forms. -->
+  <input type="hidden" name="access_key" value="6e9dbd91-0d8f-4498-a8fd-351a4ee4e4b8">
+
+  <!-- All your form fields and the submit button must be inside these <form> tags -->
+  <div>
+    <label for="name" class="block text-gray-300 text-sm font-medium mb-2">Name</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Your Name"
+      class="w-full p-3 rounded-lg bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500"
+      required
+    />
+  </div>
+  <div>
+    <label for="email" class="block text-gray-300 text-sm font-medium mb-2">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="your.email@example.com"
+      class="w-full p-3 rounded-lg bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500"
+      required
+    />
+  </div>
+  <div>
+    <label for="message" class="block text-gray-300 text-sm font-medium mb-2">Message</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="5"
+      placeholder="Your message here..."
+      class="w-full p-3 rounded-lg bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500"
+      required
+    ></textarea>
+  </div>
+  <button
+    type="submit"
+    class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transition-colors duration-300"
+  >
+    Send Message
+  </button>
+</form>
+
+            <div class="flex justify-center space-x-6 mt-10">
+              <a
+                href="https://github.com/Ditshego21"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-300 hover:text-white transition-colors duration-300 transform hover:scale-110"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-github"
+                >
+                  <path
+                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.25-1-3.5.25-1.5-.2-3-1.25-3.75 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-1.25.75-1.7 2.25-1.25 3.75-.8.25-1.5 1.25-1 3.5 0 3.5 3 5.5 6 5.5-.39.49-.68 1-.85 1.65-.17.65-.22 1.4-.15 2.2l.6 3H22"
+                  />
+                  <path d="M9 18c-2.5 0-3 .5-3 2v1" />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ditshego-kgwadi-06b5772ba/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-300 hover:text-white transition-colors duration-300 transform hover:scale-110"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-linkedin"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  />
+                  <rect width="4" height="12" x="2" y="9" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-900 bg-opacity-90 py-6 text-center text-gray-500 text-sm">
+          <div class="container mx-auto px-4">
+            &copy; 2025 Ditshego Kgwadi. All rights reserved.
+          </div>
+        </footer>
+    </main>
+    <!-- JavaScript for active navigation link highlighting and fade-in on scroll -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+            

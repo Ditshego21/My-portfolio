@@ -1,0 +1,48 @@
+/* Custom fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #0d1117; /* Dark background as a fallback */
+
+  /* Background Image Properties */
+  background-image: url(images/backgroundportfolio.jpg'); /* <= REPLACE THIS WITH YOUR IMAGE URL */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-attachment: fixed; /* Keeps the image fixed while content scrolls */
+  background-position: center; /* Centers the image */
+}
+.font-playfair-display {
+  font-family: "Playfair Display", serif;
+}
+
+/* Custom scrollbar for aesthetics */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #2d3748; /* Dark gray */
+}
+::-webkit-scrollbar-thumb {
+  background: #9f88d4; /* Purple-600 */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed; /* Purple-700 */
+}
+
+/* Animation keyframes for fade-in effect */
+@keyframes fadeInSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeInSlideUp {
+  animation: fadeInSlideUp 1s ease-out forwards;
+}
